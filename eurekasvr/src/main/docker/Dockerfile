@@ -1,4 +1,4 @@
-FROM johncarnell/spmia-jdk
+FROM @docker.image.user@/tmx-jdk:1.0
 
 RUN mkdir -p /usr/local/eurekaserver
 ADD @project.build.finalName@.jar /usr/local/eurekaserver/

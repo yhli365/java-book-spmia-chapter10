@@ -1,5 +1,5 @@
 #@Features(jce_policy)
-FROM johncarnell/spmia-jdk
+FROM @docker.image.user@/tmx-jdk:1.0
 
 RUN mkdir -p /usr/local/configserver
 ADD @project.build.finalName@.jar /usr/local/configserver/

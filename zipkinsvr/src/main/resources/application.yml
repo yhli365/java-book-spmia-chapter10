@@ -12,7 +12,7 @@ logging:
 
 spring:
   application:
-    name: zuulservice
+    name: zipkinserver
 
 eureka:
   instance:

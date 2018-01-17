@@ -22,6 +22,7 @@
 	<properties>
 		<start-class>com.thoughtmechanix.zipkinsvr.ZipkinServerApplication</start-class>
 		<docker.image.name>tmx-zipkinsvr</docker.image.name>
+		<docker.skip>false</docker.skip>
 	</properties>
 
 	<dependencies>

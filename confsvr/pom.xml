@@ -22,6 +22,7 @@
 	<properties>
 		<start-class>com.thoughtmechanix.confsvr.ConfigServerApplication</start-class>
 		<docker.image.name>tmx-confsvr</docker.image.name>
+		<docker.skip>false</docker.skip>
 	</properties>
 
 	<dependencies>

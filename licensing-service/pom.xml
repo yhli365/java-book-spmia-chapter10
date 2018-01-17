@@ -22,6 +22,7 @@
 	<properties>
 		<start-class>com.thoughtmechanix.licenses.Application</start-class>
 		<docker.image.name>tmx-licensing-service</docker.image.name>
+		<docker.skip>false</docker.skip>
 	</properties>
 
 	<dependencies>
@@ -65,12 +66,10 @@
 			<artifactId>spring-cloud-starter-hystrix</artifactId>
 		</dependency>
 
-
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-sleuth</artifactId>
 		</dependency>
-
 
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
